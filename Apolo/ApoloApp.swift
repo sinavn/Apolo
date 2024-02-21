@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ApoloApp: App {
+    let vm = ApoloViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(vm: vm )
+                
         }
     }
 }

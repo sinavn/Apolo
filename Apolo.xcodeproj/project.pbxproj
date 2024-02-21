@@ -7,18 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C67A4A02B84B5500070E071 /* ApoloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A49F2B84B5500070E071 /* ApoloApp.swift */; };
+		6C2C0D0F2B8626C200AF575D /* MissionCommanderWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C0D0D2B8623D000AF575D /* MissionCommanderWidgetModel.swift */; };
+		6C2C0D102B8632A400AF575D /* MissionCommanderWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C0D0D2B8623D000AF575D /* MissionCommanderWidgetModel.swift */; };
+		6C2C0D122B8632D200AF575D /* ApoloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A49F2B84B5500070E071 /* ApoloApp.swift */; };
 		6C67A4A22B84B5500070E071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A4A12B84B5500070E071 /* ContentView.swift */; };
 		6C67A4A42B84B5560070E071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C67A4A32B84B5560070E071 /* Assets.xcassets */; };
 		6C67A4A72B84B5560070E071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C67A4A62B84B5560070E071 /* Preview Assets.xcassets */; };
+		6C67A4B12B84B6330070E071 /* MissionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A4B02B84B6330070E071 /* MissionsModel.swift */; };
+		6C67A4B32B84B6590070E071 /* AstronautsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A4B22B84B6590070E071 /* AstronautsModel.swift */; };
+		6C67A4B52B84B6730070E071 /* ApoloViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A4B42B84B6730070E071 /* ApoloViewModel.swift */; };
+		6C67A4B72B84BC1A0070E071 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C67A4B62B84BC1A0070E071 /* missions.json */; };
+		6C67A4BA2B84BCD70070E071 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C67A4B92B84BCD70070E071 /* astronauts.json */; };
+		6C67A4BF2B84CD8D0070E071 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 6C67A4BE2B84CD8D0070E071 /* SwiftyJSON */; };
+		6C67A4C22B84D20B0070E071 /* MissionCommanderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A4C12B84D20B0070E071 /* MissionCommanderModel.swift */; };
+		6C67A4CA2B85E5D70070E071 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C67A4C92B85E5D70070E071 /* WidgetKit.framework */; };
+		6C67A4CC2B85E5D70070E071 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C67A4CB2B85E5D70070E071 /* SwiftUI.framework */; };
+		6C67A4CF2B85E5D80070E071 /* ApoloWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A4CE2B85E5D80070E071 /* ApoloWidgetBundle.swift */; };
+		6C67A4D12B85E5D80070E071 /* ApoloWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A4D02B85E5D80070E071 /* ApoloWidget.swift */; };
+		6C67A4D32B85E5DD0070E071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C67A4D22B85E5DD0070E071 /* Assets.xcassets */; };
+		6C67A4D72B85E5DD0070E071 /* ApoloWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6C67A4C72B85E5D70070E071 /* ApoloWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6CC5D10E2B86053A0027D4B5 /* ApoloWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67A4D02B85E5D80070E071 /* ApoloWidget.swift */; };
+		6CC5D1132B861BC00027D4B5 /* ApoloWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC5D1122B861BC00027D4B5 /* ApoloWidgetViewModel.swift */; };
+		6CC5D1142B861CF00027D4B5 /* ApoloWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC5D1122B861BC00027D4B5 /* ApoloWidgetViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6C67A4D52B85E5DD0070E071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C67A4942B84B5500070E071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C67A4C62B85E5D70070E071;
+			remoteInfo = ApoloWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C67A4D82B85E5DD0070E071 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C67A4D72B85E5DD0070E071 /* ApoloWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6C2C0D0C2B8621AC00AF575D /* ApoloWidgetExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApoloWidgetExtensionRelease.entitlements; sourceTree = "<group>"; };
+		6C2C0D0D2B8623D000AF575D /* MissionCommanderWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCommanderWidgetModel.swift; sourceTree = "<group>"; };
 		6C67A49C2B84B5500070E071 /* Apolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C67A49F2B84B5500070E071 /* ApoloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApoloApp.swift; sourceTree = "<group>"; };
 		6C67A4A12B84B5500070E071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C67A4A32B84B5560070E071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C67A4A62B84B5560070E071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C67A4B02B84B6330070E071 /* MissionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsModel.swift; sourceTree = "<group>"; };
+		6C67A4B22B84B6590070E071 /* AstronautsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsModel.swift; sourceTree = "<group>"; };
+		6C67A4B42B84B6730070E071 /* ApoloViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApoloViewModel.swift; sourceTree = "<group>"; };
+		6C67A4B62B84BC1A0070E071 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		6C67A4B92B84BCD70070E071 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		6C67A4C12B84D20B0070E071 /* MissionCommanderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCommanderModel.swift; sourceTree = "<group>"; };
+		6C67A4C72B85E5D70070E071 /* ApoloWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ApoloWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C67A4C92B85E5D70070E071 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6C67A4CB2B85E5D70070E071 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6C67A4CE2B85E5D80070E071 /* ApoloWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApoloWidgetBundle.swift; sourceTree = "<group>"; };
+		6C67A4D02B85E5D80070E071 /* ApoloWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApoloWidget.swift; sourceTree = "<group>"; };
+		6C67A4D22B85E5DD0070E071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C67A4D42B85E5DD0070E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC5D10F2B860CAD0027D4B5 /* Apolo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Apolo.entitlements; sourceTree = "<group>"; };
+		6CC5D1102B860F840027D4B5 /* ApoloWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApoloWidgetExtension.entitlements; sourceTree = "<group>"; };
+		6CC5D1122B861BC00027D4B5 /* ApoloWidgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApoloWidgetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +86,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C67A4BF2B84CD8D0070E071 /* SwiftyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C67A4C42B85E5D70070E071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C67A4CC2B85E5D70070E071 /* SwiftUI.framework in Frameworks */,
+				6C67A4CA2B85E5D70070E071 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +105,11 @@
 		6C67A4932B84B5500070E071 = {
 			isa = PBXGroup;
 			children = (
+				6C2C0D0C2B8621AC00AF575D /* ApoloWidgetExtensionRelease.entitlements */,
+				6CC5D1102B860F840027D4B5 /* ApoloWidgetExtension.entitlements */,
 				6C67A49E2B84B5500070E071 /* Apolo */,
+				6C67A4CD2B85E5D80070E071 /* ApoloWidget */,
+				6C67A4C82B85E5D70070E071 /* Frameworks */,
 				6C67A49D2B84B5500070E071 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				6C67A49C2B84B5500070E071 /* Apolo.app */,
+				6C67A4C72B85E5D70070E071 /* ApoloWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +126,12 @@
 		6C67A49E2B84B5500070E071 /* Apolo */ = {
 			isa = PBXGroup;
 			children = (
+				6CC5D10F2B860CAD0027D4B5 /* Apolo.entitlements */,
 				6C67A49F2B84B5500070E071 /* ApoloApp.swift */,
-				6C67A4A12B84B5500070E071 /* ContentView.swift */,
+				6C67A4AF2B84B5890070E071 /* Views */,
+				6C67A4AD2B84B5790070E071 /* Model */,
+				6C67A4AE2B84B5860070E071 /* ViewModel */,
+				6C67A4B82B84BCB00070E071 /* JsonData */,
 				6C67A4A32B84B5560070E071 /* Assets.xcassets */,
 				6C67A4A52B84B5560070E071 /* Preview Content */,
 			);
@@ -67,6 +146,63 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6C67A4AD2B84B5790070E071 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C67A4B02B84B6330070E071 /* MissionsModel.swift */,
+				6C67A4B22B84B6590070E071 /* AstronautsModel.swift */,
+				6C67A4C12B84D20B0070E071 /* MissionCommanderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C67A4AE2B84B5860070E071 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6C67A4B42B84B6730070E071 /* ApoloViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6C67A4AF2B84B5890070E071 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C67A4A12B84B5500070E071 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C67A4B82B84BCB00070E071 /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				6C67A4B62B84BC1A0070E071 /* missions.json */,
+				6C67A4B92B84BCD70070E071 /* astronauts.json */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
+		6C67A4C82B85E5D70070E071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C67A4C92B85E5D70070E071 /* WidgetKit.framework */,
+				6C67A4CB2B85E5D70070E071 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C67A4CD2B85E5D80070E071 /* ApoloWidget */ = {
+			isa = PBXGroup;
+			children = (
+				6C67A4CE2B85E5D80070E071 /* ApoloWidgetBundle.swift */,
+				6CC5D1122B861BC00027D4B5 /* ApoloWidgetViewModel.swift */,
+				6C67A4D02B85E5D80070E071 /* ApoloWidget.swift */,
+				6C2C0D0D2B8623D000AF575D /* MissionCommanderWidgetModel.swift */,
+				6C67A4D22B85E5DD0070E071 /* Assets.xcassets */,
+				6C67A4D42B85E5DD0070E071 /* Info.plist */,
+			);
+			path = ApoloWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +213,37 @@
 				6C67A4982B84B5500070E071 /* Sources */,
 				6C67A4992B84B5500070E071 /* Frameworks */,
 				6C67A49A2B84B5500070E071 /* Resources */,
+				6C67A4D82B85E5DD0070E071 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C67A4D62B85E5DD0070E071 /* PBXTargetDependency */,
+			);
+			name = Apolo;
+			packageProductDependencies = (
+				6C67A4BE2B84CD8D0070E071 /* SwiftyJSON */,
+			);
+			productName = Apolo;
+			productReference = 6C67A49C2B84B5500070E071 /* Apolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C67A4C62B85E5D70070E071 /* ApoloWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C67A4DB2B85E5DD0070E071 /* Build configuration list for PBXNativeTarget "ApoloWidgetExtension" */;
+			buildPhases = (
+				6C67A4C32B85E5D70070E071 /* Sources */,
+				6C67A4C42B85E5D70070E071 /* Frameworks */,
+				6C67A4C52B85E5D70070E071 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Apolo;
-			productName = Apolo;
-			productReference = 6C67A49C2B84B5500070E071 /* Apolo.app */;
-			productType = "com.apple.product-type.application";
+			name = ApoloWidgetExtension;
+			productName = ApoloWidgetExtension;
+			productReference = 6C67A4C72B85E5D70070E071 /* ApoloWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +258,9 @@
 					6C67A49B2B84B5500070E071 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					6C67A4C62B85E5D70070E071 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 				};
 			};
 			buildConfigurationList = 6C67A4972B84B5500070E071 /* Build configuration list for PBXProject "Apolo" */;
@@ -111,11 +272,15 @@
 				Base,
 			);
 			mainGroup = 6C67A4932B84B5500070E071;
+			packageReferences = (
+				6C67A4BD2B84CD8D0070E071 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 6C67A49D2B84B5500070E071 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6C67A49B2B84B5500070E071 /* Apolo */,
+				6C67A4C62B85E5D70070E071 /* ApoloWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +291,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C67A4A72B84B5560070E071 /* Preview Assets.xcassets in Resources */,
+				6C67A4B72B84BC1A0070E071 /* missions.json in Resources */,
 				6C67A4A42B84B5560070E071 /* Assets.xcassets in Resources */,
+				6C67A4BA2B84BCD70070E071 /* astronauts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C67A4C52B85E5D70070E071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C67A4D32B85E5DD0070E071 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +312,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2C0D122B8632D200AF575D /* ApoloApp.swift in Sources */,
 				6C67A4A22B84B5500070E071 /* ContentView.swift in Sources */,
-				6C67A4A02B84B5500070E071 /* ApoloApp.swift in Sources */,
+				6C67A4B52B84B6730070E071 /* ApoloViewModel.swift in Sources */,
+				6CC5D1142B861CF00027D4B5 /* ApoloWidgetViewModel.swift in Sources */,
+				6C67A4B32B84B6590070E071 /* AstronautsModel.swift in Sources */,
+				6CC5D10E2B86053A0027D4B5 /* ApoloWidget.swift in Sources */,
+				6C2C0D102B8632A400AF575D /* MissionCommanderWidgetModel.swift in Sources */,
+				6C67A4B12B84B6330070E071 /* MissionsModel.swift in Sources */,
+				6C67A4C22B84D20B0070E071 /* MissionCommanderModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C67A4C32B85E5D70070E071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC5D1132B861BC00027D4B5 /* ApoloWidgetViewModel.swift in Sources */,
+				6C2C0D0F2B8626C200AF575D /* MissionCommanderWidgetModel.swift in Sources */,
+				6C67A4CF2B85E5D80070E071 /* ApoloWidgetBundle.swift in Sources */,
+				6C67A4D12B85E5D80070E071 /* ApoloWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C67A4D62B85E5DD0070E071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C67A4C62B85E5D70070E071 /* ApoloWidgetExtension */;
+			targetProxy = 6C67A4D52B85E5DD0070E071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6C67A4A82B84B5560070E071 /* Debug */ = {
@@ -267,11 +468,14 @@
 		6C67A4AB2B84B5560070E071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Apolo/Apolo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Apolo/Preview Content\"";
+				DEVELOPMENT_TEAM = C2RY72XWQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,11 +499,14 @@
 		6C67A4AC2B84B5560070E071 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Apolo/Apolo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Apolo/Preview Content\"";
+				DEVELOPMENT_TEAM = C2RY72XWQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +521,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinavn.Apolo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C67A4D92B85E5DD0070E071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ApoloWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2RY72XWQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ApoloWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ApoloWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinavn.Apolo.ApoloWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C67A4DA2B85E5DD0070E071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ApoloWidgetExtensionRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2RY72XWQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ApoloWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ApoloWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinavn.Apolo.ApoloWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,7 +604,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6C67A4DB2B85E5DD0070E071 /* Build configuration list for PBXNativeTarget "ApoloWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C67A4D92B85E5DD0070E071 /* Debug */,
+				6C67A4DA2B85E5DD0070E071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C67A4BD2B84CD8D0070E071 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C67A4BE2B84CD8D0070E071 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C67A4BD2B84CD8D0070E071 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6C67A4942B84B5500070E071 /* Project object */;
 }
